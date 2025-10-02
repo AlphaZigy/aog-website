@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yourdomain.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow access to important resources
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /lib/
+
+# Block access to sensitive files (if any)
+Disallow: /cgi-bin/
+Disallow: /*.log$
+Disallow: /temp/
+Disallow: /backup/
+
+# Block access to admin areas (if you add them later)
+Disallow: /admin/
+Disallow: /cpanel/
+
+# Allow specific pages
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /ministries.html
+Allow: /executive.html
+Allow: /donate.html
+Allow: /testimonial.html
+Allow: /causes.html
+Allow: /sitemap.html
